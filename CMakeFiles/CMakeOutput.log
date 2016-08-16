@@ -1,0 +1,217 @@
+The system is: Linux - 2.6.18-308.4.1.el5 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/scratch/parswa/mdcuda/src/CMakeFiles/3.4.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/scratch/parswa/mdcuda/src/CMakeFiles/3.4.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /scratch/parswa/mdcuda/src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_4807b/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_4807b.dir/build.make CMakeFiles/cmTC_4807b.dir/build
+gmake[1]: Entering directory `/scratch/parswa/mdcuda/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4807b.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_4807b.dir/testCCompiler.c.o   -c /scratch/parswa/mdcuda/src/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_4807b
+/home/pnath/softwares/cmake-3.4.1-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4807b.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_4807b.dir/testCCompiler.c.o  -o cmTC_4807b -rdynamic 
+gmake[1]: Leaving directory `/scratch/parswa/mdcuda/src/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /scratch/parswa/mdcuda/src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_b3466/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_b3466.dir/build.make CMakeFiles/cmTC_b3466.dir/build
+gmake[1]: Entering directory `/scratch/parswa/mdcuda/src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b3466.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_b3466.dir/CMakeCCompilerABI.c.o   -c /home/pnath/softwares/cmake-3.4.1-Linux-x86_64/share/cmake-3.4/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_b3466
+/home/pnath/softwares/cmake-3.4.1-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3466.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_b3466.dir/CMakeCCompilerABI.c.o  -o cmTC_b3466 -rdynamic  
+Using built-in specs.
+Target: x86_64-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-libgcj-multifile --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --disable-plugin --with-java-home=/usr/lib/jvm/java-1.4.2-gcj-1.4.2.0/jre --with-cpu=generic --host=x86_64-redhat-linux
+Thread model: posix
+gcc version 4.1.2 20080704 (Red Hat 4.1.2-52)
+ /usr/libexec/gcc/x86_64-redhat-linux/4.1.2/collect2 --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b3466 /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.1.2/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.1.2 -L/usr/lib/gcc/x86_64-redhat-linux/4.1.2 -L/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 CMakeFiles/cmTC_b3466.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.1.2/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/scratch/parswa/mdcuda/src/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /scratch/parswa/mdcuda/src/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_b3466/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_b3466.dir/build.make CMakeFiles/cmTC_b3466.dir/build]
+  ignore line: [gmake[1]: Entering directory `/scratch/parswa/mdcuda/src/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_b3466.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_b3466.dir/CMakeCCompilerABI.c.o   -c /home/pnath/softwares/cmake-3.4.1-Linux-x86_64/share/cmake-3.4/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_b3466]
+  ignore line: [/home/pnath/softwares/cmake-3.4.1-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3466.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_b3466.dir/CMakeCCompilerABI.c.o  -o cmTC_b3466 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-libgcj-multifile --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --disable-plugin --with-java-home=/usr/lib/jvm/java-1.4.2-gcj-1.4.2.0/jre --with-cpu=generic --host=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.1.2 20080704 (Red Hat 4.1.2-52)]
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.1.2/collect2 --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b3466 /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.1.2/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.1.2 -L/usr/lib/gcc/x86_64-redhat-linux/4.1.2 -L/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 CMakeFiles/cmTC_b3466.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.1.2/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-redhat-linux/4.1.2/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b3466] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.1.2/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.1.2] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.1.2]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.1.2] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.1.2]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [CMakeFiles/cmTC_b3466.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.1.2/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.1.2] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.1.2]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.1.2] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.1.2]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/4.1.2;/usr/lib64;/lib64]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /scratch/parswa/mdcuda/src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_05b49/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_05b49.dir/build.make CMakeFiles/cmTC_05b49.dir/build
+gmake[1]: Entering directory `/scratch/parswa/mdcuda/src/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_05b49.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_05b49.dir/testCXXCompiler.cxx.o -c /scratch/parswa/mdcuda/src/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_05b49
+/home/pnath/softwares/cmake-3.4.1-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05b49.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_05b49.dir/testCXXCompiler.cxx.o  -o cmTC_05b49 -rdynamic 
+gmake[1]: Leaving directory `/scratch/parswa/mdcuda/src/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /scratch/parswa/mdcuda/src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d3b61/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d3b61.dir/build.make CMakeFiles/cmTC_d3b61.dir/build
+gmake[1]: Entering directory `/scratch/parswa/mdcuda/src/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d3b61.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_d3b61.dir/CMakeCXXCompilerABI.cpp.o -c /home/pnath/softwares/cmake-3.4.1-Linux-x86_64/share/cmake-3.4/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_d3b61
+/home/pnath/softwares/cmake-3.4.1-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3b61.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_d3b61.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d3b61 -rdynamic  
+Using built-in specs.
+Target: x86_64-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-libgcj-multifile --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --disable-plugin --with-java-home=/usr/lib/jvm/java-1.4.2-gcj-1.4.2.0/jre --with-cpu=generic --host=x86_64-redhat-linux
+Thread model: posix
+gcc version 4.1.2 20080704 (Red Hat 4.1.2-52)
+ /usr/libexec/gcc/x86_64-redhat-linux/4.1.2/collect2 --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d3b61 /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.1.2/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.1.2 -L/usr/lib/gcc/x86_64-redhat-linux/4.1.2 -L/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 CMakeFiles/cmTC_d3b61.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.1.2/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/scratch/parswa/mdcuda/src/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /scratch/parswa/mdcuda/src/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_d3b61/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_d3b61.dir/build.make CMakeFiles/cmTC_d3b61.dir/build]
+  ignore line: [gmake[1]: Entering directory `/scratch/parswa/mdcuda/src/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_d3b61.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_d3b61.dir/CMakeCXXCompilerABI.cpp.o -c /home/pnath/softwares/cmake-3.4.1-Linux-x86_64/share/cmake-3.4/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_d3b61]
+  ignore line: [/home/pnath/softwares/cmake-3.4.1-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3b61.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_d3b61.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d3b61 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-libgcj-multifile --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --disable-plugin --with-java-home=/usr/lib/jvm/java-1.4.2-gcj-1.4.2.0/jre --with-cpu=generic --host=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.1.2 20080704 (Red Hat 4.1.2-52)]
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.1.2/collect2 --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d3b61 /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.1.2/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.1.2 -L/usr/lib/gcc/x86_64-redhat-linux/4.1.2 -L/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 CMakeFiles/cmTC_d3b61.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.1.2/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-redhat-linux/4.1.2/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d3b61] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.1.2/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.1.2] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.1.2]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.1.2] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.1.2]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [CMakeFiles/cmTC_d3b61.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.1.2/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.1.2] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.1.2]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.1.2] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.1.2]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/4.1.2;/usr/lib64;/lib64]
+  implicit fwks: []
+
+

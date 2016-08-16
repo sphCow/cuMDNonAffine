@@ -1,0 +1,75 @@
+#ifndef __REDUCTION_CU__
+#define __REDUCTION_CU__
+
+#include "sum4.h"
+
+#include <thrust/host_vector.h>
+#include <thrust/device_vector.h>
+#include <thrust/sort.h>
+#include <thrust/reduce.h>
+#include <thrust/scan.h>
+
+//global reduce kernel
+__global__
+void kernel_GlobalReduce(double4 *in, double4 *out, int N) {
+  double4 res = make_double4(0.0,0.0,0.0,0.0);
+
+  for(int i=0; i<N; i++) {
+    res.x += in[i].x;
+    res.y += in[i].y;
+    res.z += in[i].z;
+    res.w += in[i].w;
+  }
+
+  out->x = res.x;
+  out->y = res.y;
+  out->z = res.z;
+  out->w = res.w;
+}
+
+__global__
+void kernel_GlobalReduce(double *in, double *out, int N) {
+  double res = 0.0;
+
+  for(int i=0; i<N; i++) {
+    res += in[i];
+  }
+
+  *out = res;
+}
+
+extern double GlobalReduce(double *d_in, int N) {
+  //double *d_out;
+  double h_out;
+  //cudaMalloc((void **) &d_out, 1*sizeof(double));
+
+  //kernel_GlobalReduce<<<1,1>>>(d_in, d_out, N);
+  //cudaMemcpy(&h_out, d_out, 1*sizeof(double), cudaMemcpyDeviceToHost);
+  //return h_out;
+
+  thrust::device_ptr<double> ptr1(d_in);
+  thrust::device_ptr<double> ptr2(d_in+N);
+  h_out = thrust::reduce(ptr1, ptr2);
+  
+  return h_out;
+}
+
+extern double4 GlobalReduce(double4 *d_in, int N) {
+  //double4 *d_out;
+  double4 h_out;
+  //cudaMalloc((void **) &d_out, 1*sizeof(double4));
+
+  //kernel_GlobalReduce<<<1,1>>>(d_in, d_out, N);
+  //cudaMemcpy(&h_out, d_out, 1*sizeof(double4), cudaMemcpyDeviceToHost);
+  
+  thrust::device_ptr<double4> ptr1(d_in);
+  thrust::device_ptr<double4> ptr2(d_in+N);
+  double4 init = make_double4(0.0,0.0,0.0,0.0);
+  h_out = thrust::reduce(ptr1, ptr2, init,Sum4());
+  
+  return h_out;
+}
+
+
+
+#endif
